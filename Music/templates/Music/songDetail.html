@@ -1,0 +1,19 @@
+16 lines (12 sloc)  405 Bytes
+   
+{% extends 'base.html' %}
+{% block content %} 
+<h2>Song Detail</h2>
+<p>
+
+    Song Name : {{ song.songname }}<br/>
+    Song Type : {{ song.songtype }}<br/>
+    Author's Name : {{ song.authorname}}<br/>
+    Release Date : {{ song.releaseDate }}<br/>
+    User ID : {{ song.user }}<br/>
+    Youtube URL : {{ song.YoutubeURL }}<br/>
+    Song Description : {{ song.songdescription }}
+   
+</p>
+
+
+{% endblock %}
